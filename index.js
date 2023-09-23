@@ -15,7 +15,7 @@ import cookieParser from 'cookie-parser';
 //   optionsSuccessStatus: 200 ,// For legacy browser support
 //   credentials: true,
 // }));
-app.use(cors({ origin: 'https://testf.onrender.com', credentials:true })) 
+app.use(cors({ origin: 'https://testf-rwui.onrender.com', credentials:true })) 
 app.use(cookieParser());
 // app.use(function(req, res, next) {
 //   res.header('Access-Control-Allow-Origin', 'http://localhost:3000');
