@@ -5,6 +5,7 @@ import mongoose from "mongoose";
 import cors from  "cors";
 import cookieParser from 'cookie-parser';
  var app=express();
+ app.set("trust proxy", true);
 // app.use(cors);
 // var corsOptions = {
 //   origin: 'https://ashokmernmovie.netlify.app',
